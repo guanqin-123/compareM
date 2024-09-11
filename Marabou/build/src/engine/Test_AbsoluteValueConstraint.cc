@@ -1,0 +1,211 @@
+/* Generated file, do not edit */
+
+#ifndef CXXTEST_RUNNING
+#define CXXTEST_RUNNING
+#endif
+
+#define _CXXTEST_HAVE_STD
+#define _CXXTEST_HAVE_EH
+#include <cxxtest/TestListener.h>
+#include <cxxtest/TestTracker.h>
+#include <cxxtest/TestRunner.h>
+#include <cxxtest/RealDescriptions.h>
+#include <cxxtest/ErrorPrinter.h>
+
+int main() {
+ return CxxTest::ErrorPrinter().run();
+}
+#include "/home/guanqin/compareM/Marabou/src/engine/tests/Test_AbsoluteValueConstraint.h"
+
+static AbsoluteValueConstraintTestSuite suite_AbsoluteValueConstraintTestSuite;
+
+static CxxTest::List Tests_AbsoluteValueConstraintTestSuite = { 0, 0 };
+CxxTest::StaticSuiteDescription suiteDescription_AbsoluteValueConstraintTestSuite( "/home/guanqin/compareM/Marabou/src/engine/tests/Test_AbsoluteValueConstraint.h", 48, "AbsoluteValueConstraintTestSuite", suite_AbsoluteValueConstraintTestSuite, Tests_AbsoluteValueConstraintTestSuite );
+
+static class TestDescription_AbsoluteValueConstraintTestSuite_test_abs_duplicate_and_restore : public CxxTest::RealTestDescription {
+public:
+ TestDescription_AbsoluteValueConstraintTestSuite_test_abs_duplicate_and_restore() : CxxTest::RealTestDescription( Tests_AbsoluteValueConstraintTestSuite, suiteDescription_AbsoluteValueConstraintTestSuite, 63, "test_abs_duplicate_and_restore" ) {}
+ void runTest() { suite_AbsoluteValueConstraintTestSuite.test_abs_duplicate_and_restore(); }
+} testDescription_AbsoluteValueConstraintTestSuite_test_abs_duplicate_and_restore;
+
+static class TestDescription_AbsoluteValueConstraintTestSuite_test_register_and_unregister_as_watcher : public CxxTest::RealTestDescription {
+public:
+ TestDescription_AbsoluteValueConstraintTestSuite_test_register_and_unregister_as_watcher() : CxxTest::RealTestDescription( Tests_AbsoluteValueConstraintTestSuite, suiteDescription_AbsoluteValueConstraintTestSuite, 98, "test_register_and_unregister_as_watcher" ) {}
+ void runTest() { suite_AbsoluteValueConstraintTestSuite.test_register_and_unregister_as_watcher(); }
+} testDescription_AbsoluteValueConstraintTestSuite_test_register_and_unregister_as_watcher;
+
+static class TestDescription_AbsoluteValueConstraintTestSuite_test_participating_variables : public CxxTest::RealTestDescription {
+public:
+ TestDescription_AbsoluteValueConstraintTestSuite_test_participating_variables() : CxxTest::RealTestDescription( Tests_AbsoluteValueConstraintTestSuite, suiteDescription_AbsoluteValueConstraintTestSuite, 128, "test_participating_variables" ) {}
+ void runTest() { suite_AbsoluteValueConstraintTestSuite.test_participating_variables(); }
+} testDescription_AbsoluteValueConstraintTestSuite_test_participating_variables;
+
+static class TestDescription_AbsoluteValueConstraintTestSuite_test_abs_notify_variable_value_and_satisfied : public CxxTest::RealTestDescription {
+public:
+ TestDescription_AbsoluteValueConstraintTestSuite_test_abs_notify_variable_value_and_satisfied() : CxxTest::RealTestDescription( Tests_AbsoluteValueConstraintTestSuite, suiteDescription_AbsoluteValueConstraintTestSuite, 153, "test_abs_notify_variable_value_and_satisfied" ) {}
+ void runTest() { suite_AbsoluteValueConstraintTestSuite.test_abs_notify_variable_value_and_satisfied(); }
+} testDescription_AbsoluteValueConstraintTestSuite_test_abs_notify_variable_value_and_satisfied;
+
+static class TestDescription_AbsoluteValueConstraintTestSuite_test_abs_update_variable_index : public CxxTest::RealTestDescription {
+public:
+ TestDescription_AbsoluteValueConstraintTestSuite_test_abs_update_variable_index() : CxxTest::RealTestDescription( Tests_AbsoluteValueConstraintTestSuite, suiteDescription_AbsoluteValueConstraintTestSuite, 198, "test_abs_update_variable_index" ) {}
+ void runTest() { suite_AbsoluteValueConstraintTestSuite.test_abs_update_variable_index(); }
+} testDescription_AbsoluteValueConstraintTestSuite_test_abs_update_variable_index;
+
+static class TestDescription_AbsoluteValueConstraintTestSuite_test_abs_getPossibleFixes : public CxxTest::RealTestDescription {
+public:
+ TestDescription_AbsoluteValueConstraintTestSuite_test_abs_getPossibleFixes() : CxxTest::RealTestDescription( Tests_AbsoluteValueConstraintTestSuite, suiteDescription_AbsoluteValueConstraintTestSuite, 232, "test_abs_getPossibleFixes" ) {}
+ void runTest() { suite_AbsoluteValueConstraintTestSuite.test_abs_getPossibleFixes(); }
+} testDescription_AbsoluteValueConstraintTestSuite_test_abs_getPossibleFixes;
+
+static class TestDescription_AbsoluteValueConstraintTestSuite_test_eliminate_variable_b : public CxxTest::RealTestDescription {
+public:
+ TestDescription_AbsoluteValueConstraintTestSuite_test_eliminate_variable_b() : CxxTest::RealTestDescription( Tests_AbsoluteValueConstraintTestSuite, suiteDescription_AbsoluteValueConstraintTestSuite, 282, "test_eliminate_variable_b" ) {}
+ void runTest() { suite_AbsoluteValueConstraintTestSuite.test_eliminate_variable_b(); }
+} testDescription_AbsoluteValueConstraintTestSuite_test_eliminate_variable_b;
+
+static class TestDescription_AbsoluteValueConstraintTestSuite_test_eliminate_variable_f : public CxxTest::RealTestDescription {
+public:
+ TestDescription_AbsoluteValueConstraintTestSuite_test_eliminate_variable_f() : CxxTest::RealTestDescription( Tests_AbsoluteValueConstraintTestSuite, suiteDescription_AbsoluteValueConstraintTestSuite, 298, "test_eliminate_variable_f" ) {}
+ void runTest() { suite_AbsoluteValueConstraintTestSuite.test_eliminate_variable_f(); }
+} testDescription_AbsoluteValueConstraintTestSuite_test_eliminate_variable_f;
+
+static class TestDescription_AbsoluteValueConstraintTestSuite_test_abs_entailed_tightenings_positive_phase_1 : public CxxTest::RealTestDescription {
+public:
+ TestDescription_AbsoluteValueConstraintTestSuite_test_abs_entailed_tightenings_positive_phase_1() : CxxTest::RealTestDescription( Tests_AbsoluteValueConstraintTestSuite, suiteDescription_AbsoluteValueConstraintTestSuite, 314, "test_abs_entailed_tightenings_positive_phase_1" ) {}
+ void runTest() { suite_AbsoluteValueConstraintTestSuite.test_abs_entailed_tightenings_positive_phase_1(); }
+} testDescription_AbsoluteValueConstraintTestSuite_test_abs_entailed_tightenings_positive_phase_1;
+
+static class TestDescription_AbsoluteValueConstraintTestSuite_test_abs_entailed_tightenings_positive_phase_2 : public CxxTest::RealTestDescription {
+public:
+ TestDescription_AbsoluteValueConstraintTestSuite_test_abs_entailed_tightenings_positive_phase_2() : CxxTest::RealTestDescription( Tests_AbsoluteValueConstraintTestSuite, suiteDescription_AbsoluteValueConstraintTestSuite, 428, "test_abs_entailed_tightenings_positive_phase_2" ) {}
+ void runTest() { suite_AbsoluteValueConstraintTestSuite.test_abs_entailed_tightenings_positive_phase_2(); }
+} testDescription_AbsoluteValueConstraintTestSuite_test_abs_entailed_tightenings_positive_phase_2;
+
+static class TestDescription_AbsoluteValueConstraintTestSuite_test_abs_entailed_tightenings_positive_phase_3 : public CxxTest::RealTestDescription {
+public:
+ TestDescription_AbsoluteValueConstraintTestSuite_test_abs_entailed_tightenings_positive_phase_3() : CxxTest::RealTestDescription( Tests_AbsoluteValueConstraintTestSuite, suiteDescription_AbsoluteValueConstraintTestSuite, 469, "test_abs_entailed_tightenings_positive_phase_3" ) {}
+ void runTest() { suite_AbsoluteValueConstraintTestSuite.test_abs_entailed_tightenings_positive_phase_3(); }
+} testDescription_AbsoluteValueConstraintTestSuite_test_abs_entailed_tightenings_positive_phase_3;
+
+static class TestDescription_AbsoluteValueConstraintTestSuite_test_abs_entailed_tightenings_positive_phase_4 : public CxxTest::RealTestDescription {
+public:
+ TestDescription_AbsoluteValueConstraintTestSuite_test_abs_entailed_tightenings_positive_phase_4() : CxxTest::RealTestDescription( Tests_AbsoluteValueConstraintTestSuite, suiteDescription_AbsoluteValueConstraintTestSuite, 511, "test_abs_entailed_tightenings_positive_phase_4" ) {}
+ void runTest() { suite_AbsoluteValueConstraintTestSuite.test_abs_entailed_tightenings_positive_phase_4(); }
+} testDescription_AbsoluteValueConstraintTestSuite_test_abs_entailed_tightenings_positive_phase_4;
+
+static class TestDescription_AbsoluteValueConstraintTestSuite_test_abs_entailed_tightenings_positive_phase_5 : public CxxTest::RealTestDescription {
+public:
+ TestDescription_AbsoluteValueConstraintTestSuite_test_abs_entailed_tightenings_positive_phase_5() : CxxTest::RealTestDescription( Tests_AbsoluteValueConstraintTestSuite, suiteDescription_AbsoluteValueConstraintTestSuite, 615, "test_abs_entailed_tightenings_positive_phase_5" ) {}
+ void runTest() { suite_AbsoluteValueConstraintTestSuite.test_abs_entailed_tightenings_positive_phase_5(); }
+} testDescription_AbsoluteValueConstraintTestSuite_test_abs_entailed_tightenings_positive_phase_5;
+
+static class TestDescription_AbsoluteValueConstraintTestSuite_test_abs_entailed_tightenings_positive_phase_6 : public CxxTest::RealTestDescription {
+public:
+ TestDescription_AbsoluteValueConstraintTestSuite_test_abs_entailed_tightenings_positive_phase_6() : CxxTest::RealTestDescription( Tests_AbsoluteValueConstraintTestSuite, suiteDescription_AbsoluteValueConstraintTestSuite, 660, "test_abs_entailed_tightenings_positive_phase_6" ) {}
+ void runTest() { suite_AbsoluteValueConstraintTestSuite.test_abs_entailed_tightenings_positive_phase_6(); }
+} testDescription_AbsoluteValueConstraintTestSuite_test_abs_entailed_tightenings_positive_phase_6;
+
+static class TestDescription_AbsoluteValueConstraintTestSuite_test_abs_entailed_tightenings_phase_not_fixed_f_strictly_positive : public CxxTest::RealTestDescription {
+public:
+ TestDescription_AbsoluteValueConstraintTestSuite_test_abs_entailed_tightenings_phase_not_fixed_f_strictly_positive() : CxxTest::RealTestDescription( Tests_AbsoluteValueConstraintTestSuite, suiteDescription_AbsoluteValueConstraintTestSuite, 720, "test_abs_entailed_tightenings_phase_not_fixed_f_strictly_positive" ) {}
+ void runTest() { suite_AbsoluteValueConstraintTestSuite.test_abs_entailed_tightenings_phase_not_fixed_f_strictly_positive(); }
+} testDescription_AbsoluteValueConstraintTestSuite_test_abs_entailed_tightenings_phase_not_fixed_f_strictly_positive;
+
+static class TestDescription_AbsoluteValueConstraintTestSuite_test_abs_entailed_tightenings_phase_not_fixed_f_strictly_positive_2 : public CxxTest::RealTestDescription {
+public:
+ TestDescription_AbsoluteValueConstraintTestSuite_test_abs_entailed_tightenings_phase_not_fixed_f_strictly_positive_2() : CxxTest::RealTestDescription( Tests_AbsoluteValueConstraintTestSuite, suiteDescription_AbsoluteValueConstraintTestSuite, 772, "test_abs_entailed_tightenings_phase_not_fixed_f_strictly_positive_2" ) {}
+ void runTest() { suite_AbsoluteValueConstraintTestSuite.test_abs_entailed_tightenings_phase_not_fixed_f_strictly_positive_2(); }
+} testDescription_AbsoluteValueConstraintTestSuite_test_abs_entailed_tightenings_phase_not_fixed_f_strictly_positive_2;
+
+static class TestDescription_AbsoluteValueConstraintTestSuite_test_abs_entailed_tightenings_phase_not_fixed_f_strictly_positive_3 : public CxxTest::RealTestDescription {
+public:
+ TestDescription_AbsoluteValueConstraintTestSuite_test_abs_entailed_tightenings_phase_not_fixed_f_strictly_positive_3() : CxxTest::RealTestDescription( Tests_AbsoluteValueConstraintTestSuite, suiteDescription_AbsoluteValueConstraintTestSuite, 828, "test_abs_entailed_tightenings_phase_not_fixed_f_strictly_positive_3" ) {}
+ void runTest() { suite_AbsoluteValueConstraintTestSuite.test_abs_entailed_tightenings_phase_not_fixed_f_strictly_positive_3(); }
+} testDescription_AbsoluteValueConstraintTestSuite_test_abs_entailed_tightenings_phase_not_fixed_f_strictly_positive_3;
+
+static class TestDescription_AbsoluteValueConstraintTestSuite_test_abs_entailed_tightenings_phase_not_fixed_f_non_negative : public CxxTest::RealTestDescription {
+public:
+ TestDescription_AbsoluteValueConstraintTestSuite_test_abs_entailed_tightenings_phase_not_fixed_f_non_negative() : CxxTest::RealTestDescription( Tests_AbsoluteValueConstraintTestSuite, suiteDescription_AbsoluteValueConstraintTestSuite, 854, "test_abs_entailed_tightenings_phase_not_fixed_f_non_negative" ) {}
+ void runTest() { suite_AbsoluteValueConstraintTestSuite.test_abs_entailed_tightenings_phase_not_fixed_f_non_negative(); }
+} testDescription_AbsoluteValueConstraintTestSuite_test_abs_entailed_tightenings_phase_not_fixed_f_non_negative;
+
+static class TestDescription_AbsoluteValueConstraintTestSuite_test_abs_entailed_tightenings_negative_phase : public CxxTest::RealTestDescription {
+public:
+ TestDescription_AbsoluteValueConstraintTestSuite_test_abs_entailed_tightenings_negative_phase() : CxxTest::RealTestDescription( Tests_AbsoluteValueConstraintTestSuite, suiteDescription_AbsoluteValueConstraintTestSuite, 980, "test_abs_entailed_tightenings_negative_phase" ) {}
+ void runTest() { suite_AbsoluteValueConstraintTestSuite.test_abs_entailed_tightenings_negative_phase(); }
+} testDescription_AbsoluteValueConstraintTestSuite_test_abs_entailed_tightenings_negative_phase;
+
+static class TestDescription_AbsoluteValueConstraintTestSuite_test_abs_entailed_tightenings_negative_phase_2 : public CxxTest::RealTestDescription {
+public:
+ TestDescription_AbsoluteValueConstraintTestSuite_test_abs_entailed_tightenings_negative_phase_2() : CxxTest::RealTestDescription( Tests_AbsoluteValueConstraintTestSuite, suiteDescription_AbsoluteValueConstraintTestSuite, 1045, "test_abs_entailed_tightenings_negative_phase_2" ) {}
+ void runTest() { suite_AbsoluteValueConstraintTestSuite.test_abs_entailed_tightenings_negative_phase_2(); }
+} testDescription_AbsoluteValueConstraintTestSuite_test_abs_entailed_tightenings_negative_phase_2;
+
+static class TestDescription_AbsoluteValueConstraintTestSuite_test_abs_case_splits : public CxxTest::RealTestDescription {
+public:
+ TestDescription_AbsoluteValueConstraintTestSuite_test_abs_case_splits() : CxxTest::RealTestDescription( Tests_AbsoluteValueConstraintTestSuite, suiteDescription_AbsoluteValueConstraintTestSuite, 1101, "test_abs_case_splits" ) {}
+ void runTest() { suite_AbsoluteValueConstraintTestSuite.test_abs_case_splits(); }
+} testDescription_AbsoluteValueConstraintTestSuite_test_abs_case_splits;
+
+static class TestDescription_AbsoluteValueConstraintTestSuite_test_constraint_phase_gets_fixed : public CxxTest::RealTestDescription {
+public:
+ TestDescription_AbsoluteValueConstraintTestSuite_test_constraint_phase_gets_fixed() : CxxTest::RealTestDescription( Tests_AbsoluteValueConstraintTestSuite, suiteDescription_AbsoluteValueConstraintTestSuite, 1192, "test_constraint_phase_gets_fixed" ) {}
+ void runTest() { suite_AbsoluteValueConstraintTestSuite.test_constraint_phase_gets_fixed(); }
+} testDescription_AbsoluteValueConstraintTestSuite_test_constraint_phase_gets_fixed;
+
+static class TestDescription_AbsoluteValueConstraintTestSuite_test_valid_split_abs_phase_fixed_to_active : public CxxTest::RealTestDescription {
+public:
+ TestDescription_AbsoluteValueConstraintTestSuite_test_valid_split_abs_phase_fixed_to_active() : CxxTest::RealTestDescription( Tests_AbsoluteValueConstraintTestSuite, suiteDescription_AbsoluteValueConstraintTestSuite, 1258, "test_valid_split_abs_phase_fixed_to_active" ) {}
+ void runTest() { suite_AbsoluteValueConstraintTestSuite.test_valid_split_abs_phase_fixed_to_active(); }
+} testDescription_AbsoluteValueConstraintTestSuite_test_valid_split_abs_phase_fixed_to_active;
+
+static class TestDescription_AbsoluteValueConstraintTestSuite_test_valid_split_abs_phase_fixed_to_inactive : public CxxTest::RealTestDescription {
+public:
+ TestDescription_AbsoluteValueConstraintTestSuite_test_valid_split_abs_phase_fixed_to_inactive() : CxxTest::RealTestDescription( Tests_AbsoluteValueConstraintTestSuite, suiteDescription_AbsoluteValueConstraintTestSuite, 1304, "test_valid_split_abs_phase_fixed_to_inactive" ) {}
+ void runTest() { suite_AbsoluteValueConstraintTestSuite.test_valid_split_abs_phase_fixed_to_inactive(); }
+} testDescription_AbsoluteValueConstraintTestSuite_test_valid_split_abs_phase_fixed_to_inactive;
+
+static class TestDescription_AbsoluteValueConstraintTestSuite_test_serialize_and_unserialize : public CxxTest::RealTestDescription {
+public:
+ TestDescription_AbsoluteValueConstraintTestSuite_test_serialize_and_unserialize() : CxxTest::RealTestDescription( Tests_AbsoluteValueConstraintTestSuite, suiteDescription_AbsoluteValueConstraintTestSuite, 1403, "test_serialize_and_unserialize" ) {}
+ void runTest() { suite_AbsoluteValueConstraintTestSuite.test_serialize_and_unserialize(); }
+} testDescription_AbsoluteValueConstraintTestSuite_test_serialize_and_unserialize;
+
+static class TestDescription_AbsoluteValueConstraintTestSuite_test_abs_with_aux_vars : public CxxTest::RealTestDescription {
+public:
+ TestDescription_AbsoluteValueConstraintTestSuite_test_abs_with_aux_vars() : CxxTest::RealTestDescription( Tests_AbsoluteValueConstraintTestSuite, suiteDescription_AbsoluteValueConstraintTestSuite, 1421, "test_abs_with_aux_vars" ) {}
+ void runTest() { suite_AbsoluteValueConstraintTestSuite.test_abs_with_aux_vars(); }
+} testDescription_AbsoluteValueConstraintTestSuite_test_abs_with_aux_vars;
+
+static class TestDescription_AbsoluteValueConstraintTestSuite_test_initialization_of_CDOs : public CxxTest::RealTestDescription {
+public:
+ TestDescription_AbsoluteValueConstraintTestSuite_test_initialization_of_CDOs() : CxxTest::RealTestDescription( Tests_AbsoluteValueConstraintTestSuite, suiteDescription_AbsoluteValueConstraintTestSuite, 1568, "test_initialization_of_CDOs" ) {}
+ void runTest() { suite_AbsoluteValueConstraintTestSuite.test_initialization_of_CDOs(); }
+} testDescription_AbsoluteValueConstraintTestSuite_test_initialization_of_CDOs;
+
+static class TestDescription_AbsoluteValueConstraintTestSuite_test_abs_get_cases : public CxxTest::RealTestDescription {
+public:
+ TestDescription_AbsoluteValueConstraintTestSuite_test_abs_get_cases() : CxxTest::RealTestDescription( Tests_AbsoluteValueConstraintTestSuite, suiteDescription_AbsoluteValueConstraintTestSuite, 1603, "test_abs_get_cases" ) {}
+ void runTest() { suite_AbsoluteValueConstraintTestSuite.test_abs_get_cases(); }
+} testDescription_AbsoluteValueConstraintTestSuite_test_abs_get_cases;
+
+static class TestDescription_AbsoluteValueConstraintTestSuite_test_abs_context_dependent_state : public CxxTest::RealTestDescription {
+public:
+ TestDescription_AbsoluteValueConstraintTestSuite_test_abs_context_dependent_state() : CxxTest::RealTestDescription( Tests_AbsoluteValueConstraintTestSuite, suiteDescription_AbsoluteValueConstraintTestSuite, 1622, "test_abs_context_dependent_state" ) {}
+ void runTest() { suite_AbsoluteValueConstraintTestSuite.test_abs_context_dependent_state(); }
+} testDescription_AbsoluteValueConstraintTestSuite_test_abs_context_dependent_state;
+
+static class TestDescription_AbsoluteValueConstraintTestSuite_test_get_cost_function_component : public CxxTest::RealTestDescription {
+public:
+ TestDescription_AbsoluteValueConstraintTestSuite_test_get_cost_function_component() : CxxTest::RealTestDescription( Tests_AbsoluteValueConstraintTestSuite, suiteDescription_AbsoluteValueConstraintTestSuite, 1649, "test_get_cost_function_component" ) {}
+ void runTest() { suite_AbsoluteValueConstraintTestSuite.test_get_cost_function_component(); }
+} testDescription_AbsoluteValueConstraintTestSuite_test_get_cost_function_component;
+
+static class TestDescription_AbsoluteValueConstraintTestSuite_test_get_phase_in_assignment : public CxxTest::RealTestDescription {
+public:
+ TestDescription_AbsoluteValueConstraintTestSuite_test_get_phase_in_assignment() : CxxTest::RealTestDescription( Tests_AbsoluteValueConstraintTestSuite, suiteDescription_AbsoluteValueConstraintTestSuite, 1736, "test_get_phase_in_assignment" ) {}
+ void runTest() { suite_AbsoluteValueConstraintTestSuite.test_get_phase_in_assignment(); }
+} testDescription_AbsoluteValueConstraintTestSuite_test_get_phase_in_assignment;
+
+#include <cxxtest/Root.cpp>

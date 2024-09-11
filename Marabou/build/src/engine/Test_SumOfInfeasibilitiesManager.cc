@@ -1,0 +1,73 @@
+/* Generated file, do not edit */
+
+#ifndef CXXTEST_RUNNING
+#define CXXTEST_RUNNING
+#endif
+
+#define _CXXTEST_HAVE_STD
+#define _CXXTEST_HAVE_EH
+#include <cxxtest/TestListener.h>
+#include <cxxtest/TestTracker.h>
+#include <cxxtest/TestRunner.h>
+#include <cxxtest/RealDescriptions.h>
+#include <cxxtest/ErrorPrinter.h>
+
+int main() {
+ return CxxTest::ErrorPrinter().run();
+}
+#include "/home/guanqin/compareM/Marabou/src/engine/tests/Test_SumOfInfeasibilitiesManager.h"
+
+static SumOfInfeasibilitiesManagerTestSuite suite_SumOfInfeasibilitiesManagerTestSuite;
+
+static CxxTest::List Tests_SumOfInfeasibilitiesManagerTestSuite = { 0, 0 };
+CxxTest::StaticSuiteDescription suiteDescription_SumOfInfeasibilitiesManagerTestSuite( "/home/guanqin/compareM/Marabou/src/engine/tests/Test_SumOfInfeasibilitiesManager.h", 46, "SumOfInfeasibilitiesManagerTestSuite", suite_SumOfInfeasibilitiesManagerTestSuite, Tests_SumOfInfeasibilitiesManagerTestSuite );
+
+static class TestDescription_SumOfInfeasibilitiesManagerTestSuite_test_initialize_phase_pattern_with_input_assignment1 : public CxxTest::RealTestDescription {
+public:
+ TestDescription_SumOfInfeasibilitiesManagerTestSuite_test_initialize_phase_pattern_with_input_assignment1() : CxxTest::RealTestDescription( Tests_SumOfInfeasibilitiesManagerTestSuite, suiteDescription_SumOfInfeasibilitiesManagerTestSuite, 128, "test_initialize_phase_pattern_with_input_assignment1" ) {}
+ void runTest() { suite_SumOfInfeasibilitiesManagerTestSuite.test_initialize_phase_pattern_with_input_assignment1(); }
+} testDescription_SumOfInfeasibilitiesManagerTestSuite_test_initialize_phase_pattern_with_input_assignment1;
+
+static class TestDescription_SumOfInfeasibilitiesManagerTestSuite_test_initialize_phase_pattern_with_input_assignment2 : public CxxTest::RealTestDescription {
+public:
+ TestDescription_SumOfInfeasibilitiesManagerTestSuite_test_initialize_phase_pattern_with_input_assignment2() : CxxTest::RealTestDescription( Tests_SumOfInfeasibilitiesManagerTestSuite, suiteDescription_SumOfInfeasibilitiesManagerTestSuite, 173, "test_initialize_phase_pattern_with_input_assignment2" ) {}
+ void runTest() { suite_SumOfInfeasibilitiesManagerTestSuite.test_initialize_phase_pattern_with_input_assignment2(); }
+} testDescription_SumOfInfeasibilitiesManagerTestSuite_test_initialize_phase_pattern_with_input_assignment2;
+
+static class TestDescription_SumOfInfeasibilitiesManagerTestSuite_test_initialize_phase_pattern_with_current_assignment : public CxxTest::RealTestDescription {
+public:
+ TestDescription_SumOfInfeasibilitiesManagerTestSuite_test_initialize_phase_pattern_with_current_assignment() : CxxTest::RealTestDescription( Tests_SumOfInfeasibilitiesManagerTestSuite, suiteDescription_SumOfInfeasibilitiesManagerTestSuite, 221, "test_initialize_phase_pattern_with_current_assignment" ) {}
+ void runTest() { suite_SumOfInfeasibilitiesManagerTestSuite.test_initialize_phase_pattern_with_current_assignment(); }
+} testDescription_SumOfInfeasibilitiesManagerTestSuite_test_initialize_phase_pattern_with_current_assignment;
+
+static class TestDescription_SumOfInfeasibilitiesManagerTestSuite_test_propose_phase_pattern_update_randomly : public CxxTest::RealTestDescription {
+public:
+ TestDescription_SumOfInfeasibilitiesManagerTestSuite_test_propose_phase_pattern_update_randomly() : CxxTest::RealTestDescription( Tests_SumOfInfeasibilitiesManagerTestSuite, suiteDescription_SumOfInfeasibilitiesManagerTestSuite, 266, "test_propose_phase_pattern_update_randomly" ) {}
+ void runTest() { suite_SumOfInfeasibilitiesManagerTestSuite.test_propose_phase_pattern_update_randomly(); }
+} testDescription_SumOfInfeasibilitiesManagerTestSuite_test_propose_phase_pattern_update_randomly;
+
+static class TestDescription_SumOfInfeasibilitiesManagerTestSuite_test_propose_phase_pattern_update_walksat : public CxxTest::RealTestDescription {
+public:
+ TestDescription_SumOfInfeasibilitiesManagerTestSuite_test_propose_phase_pattern_update_walksat() : CxxTest::RealTestDescription( Tests_SumOfInfeasibilitiesManagerTestSuite, suiteDescription_SumOfInfeasibilitiesManagerTestSuite, 357, "test_propose_phase_pattern_update_walksat" ) {}
+ void runTest() { suite_SumOfInfeasibilitiesManagerTestSuite.test_propose_phase_pattern_update_walksat(); }
+} testDescription_SumOfInfeasibilitiesManagerTestSuite_test_propose_phase_pattern_update_walksat;
+
+static class TestDescription_SumOfInfeasibilitiesManagerTestSuite_test_decide_to_accept_current_proposal : public CxxTest::RealTestDescription {
+public:
+ TestDescription_SumOfInfeasibilitiesManagerTestSuite_test_decide_to_accept_current_proposal() : CxxTest::RealTestDescription( Tests_SumOfInfeasibilitiesManagerTestSuite, suiteDescription_SumOfInfeasibilitiesManagerTestSuite, 438, "test_decide_to_accept_current_proposal" ) {}
+ void runTest() { suite_SumOfInfeasibilitiesManagerTestSuite.test_decide_to_accept_current_proposal(); }
+} testDescription_SumOfInfeasibilitiesManagerTestSuite_test_decide_to_accept_current_proposal;
+
+static class TestDescription_SumOfInfeasibilitiesManagerTestSuite_test_update_current_phase_pattern_for_satisfied_pl_constraints : public CxxTest::RealTestDescription {
+public:
+ TestDescription_SumOfInfeasibilitiesManagerTestSuite_test_update_current_phase_pattern_for_satisfied_pl_constraints() : CxxTest::RealTestDescription( Tests_SumOfInfeasibilitiesManagerTestSuite, suiteDescription_SumOfInfeasibilitiesManagerTestSuite, 481, "test_update_current_phase_pattern_for_satisfied_pl_constraints" ) {}
+ void runTest() { suite_SumOfInfeasibilitiesManagerTestSuite.test_update_current_phase_pattern_for_satisfied_pl_constraints(); }
+} testDescription_SumOfInfeasibilitiesManagerTestSuite_test_update_current_phase_pattern_for_satisfied_pl_constraints;
+
+static class TestDescription_SumOfInfeasibilitiesManagerTestSuite_test_remove_cost_component_from_heuristic_cost : public CxxTest::RealTestDescription {
+public:
+ TestDescription_SumOfInfeasibilitiesManagerTestSuite_test_remove_cost_component_from_heuristic_cost() : CxxTest::RealTestDescription( Tests_SumOfInfeasibilitiesManagerTestSuite, suiteDescription_SumOfInfeasibilitiesManagerTestSuite, 532, "test_remove_cost_component_from_heuristic_cost" ) {}
+ void runTest() { suite_SumOfInfeasibilitiesManagerTestSuite.test_remove_cost_component_from_heuristic_cost(); }
+} testDescription_SumOfInfeasibilitiesManagerTestSuite_test_remove_cost_component_from_heuristic_cost;
+
+#include <cxxtest/Root.cpp>

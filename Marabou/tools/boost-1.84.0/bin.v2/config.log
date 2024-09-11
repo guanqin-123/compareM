@@ -1,0 +1,96 @@
+...found 1 target...
+...patience...
+...found 303 targets...
+...updating 6 targets...
+gcc.compile.c++ bin.v2/libs/thread/build/gcc-14/release/address-model-32/link-static/threading-multi/visibility-hidden/has_atomic_flag_lockfree_test.o
+In file included from /home/guanqin/anaconda3/envs/py39/x86_64-conda-linux-gnu/sysroot/usr/include/features.h:385,
+                 from /home/guanqin/anaconda3/envs/py39/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/x86_64-conda-linux-gnu/bits/os_defines.h:39,
+                 from /home/guanqin/anaconda3/envs/py39/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/x86_64-conda-linux-gnu/bits/c++config.h:680,
+                 from /home/guanqin/anaconda3/envs/py39/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/cstddef:49,
+                 from ./boost/config/compiler/gcc.hpp:165,
+                 from ./boost/config.hpp:39,
+                 from ./boost/memory_order.hpp:15,
+                 from libs/thread/src/../build/../../../boost/atomic.hpp:13,
+                 from libs/thread/src/../build/has_atomic_flag_lockfree_test.cpp:6:
+/home/guanqin/anaconda3/envs/py39/x86_64-conda-linux-gnu/sysroot/usr/include/gnu/stubs.h:7:11: fatal error: gnu/stubs-32.h: No such file or directory
+    7 | # include <gnu/stubs-32.h>
+      |           ^~~~~~~~~~~~~~~~
+compilation terminated.
+
+    "g++"   -fvisibility-inlines-hidden -m32 -pthread -O3 -finline-functions -Wno-inline -Wall -fvisibility=hidden -march=i686 -fPIC -std=c++11 -DBOOST_ALL_NO_LIB=1 -DBOOST_COBALT_USE_STD_PMR=1 -DNDEBUG   -I"."  -c -o "bin.v2/libs/thread/build/gcc-14/release/address-model-32/link-static/threading-multi/visibility-hidden/has_atomic_flag_lockfree_test.o" "libs/thread/src/../build/has_atomic_flag_lockfree_test.cpp"
+
+...failed gcc.compile.c++ bin.v2/libs/thread/build/gcc-14/release/address-model-32/link-static/threading-multi/visibility-hidden/has_atomic_flag_lockfree_test.o...
+...skipped <pbin.v2/libs/thread/build/gcc-14/release/address-model-32/link-static/threading-multi/visibility-hidden>has_atomic_flag_lockfree for lack of <pbin.v2/libs/thread/build/gcc-14/release/address-model-32/link-static/threading-multi/visibility-hidden>has_atomic_flag_lockfree_test.o...
+...failed updating 1 target...
+...skipped 1 target...
+...updated 4 targets...
+...found 11 targets...
+...updating 9 targets...
+gcc.compile.c++ bin.v2/libs/atomic/config/gcc-14/release/address-model-32/link-static/threading-multi/visibility-hidden/has_sse2.o
+In file included from /home/guanqin/anaconda3/envs/py39/x86_64-conda-linux-gnu/sysroot/usr/include/features.h:385,
+                 from /home/guanqin/anaconda3/envs/py39/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/x86_64-conda-linux-gnu/bits/os_defines.h:39,
+                 from /home/guanqin/anaconda3/envs/py39/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/x86_64-conda-linux-gnu/bits/c++config.h:680,
+                 from /home/guanqin/anaconda3/envs/py39/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/cstdlib:41,
+                 from /home/guanqin/anaconda3/envs/py39/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/stdlib.h:36,
+                 from /home/guanqin/anaconda3/envs/py39/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/mm_malloc.h:27,
+                 from /home/guanqin/anaconda3/envs/py39/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/xmmintrin.h:34,
+                 from /home/guanqin/anaconda3/envs/py39/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/emmintrin.h:31,
+                 from libs/atomic/config/has_sse2.cpp:8:
+/home/guanqin/anaconda3/envs/py39/x86_64-conda-linux-gnu/sysroot/usr/include/gnu/stubs.h:7:11: fatal error: gnu/stubs-32.h: No such file or directory
+    7 | # include <gnu/stubs-32.h>
+      |           ^~~~~~~~~~~~~~~~
+compilation terminated.
+
+    "g++"   -fvisibility-inlines-hidden -m32 -pthread -O3 -finline-functions -Wno-inline -Wall -fvisibility=hidden -march=i686 -fPIC -msse -msse2 -std=c++11 -DBOOST_ALL_NO_LIB=1 -DBOOST_COBALT_USE_STD_PMR=1 -DNDEBUG   -I"."  -c -o "bin.v2/libs/atomic/config/gcc-14/release/address-model-32/link-static/threading-multi/visibility-hidden/has_sse2.o" "libs/atomic/config/has_sse2.cpp"
+
+...failed gcc.compile.c++ bin.v2/libs/atomic/config/gcc-14/release/address-model-32/link-static/threading-multi/visibility-hidden/has_sse2.o...
+...failed updating 1 target...
+...updated 8 targets...
+...found 3 targets...
+...updating 1 target...
+gcc.compile.c++ bin.v2/libs/atomic/config/gcc-14/release/address-model-32/link-static/threading-multi/visibility-hidden/has_sse41.o
+In file included from /home/guanqin/anaconda3/envs/py39/x86_64-conda-linux-gnu/sysroot/usr/include/features.h:385,
+                 from /home/guanqin/anaconda3/envs/py39/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/x86_64-conda-linux-gnu/bits/os_defines.h:39,
+                 from /home/guanqin/anaconda3/envs/py39/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/x86_64-conda-linux-gnu/bits/c++config.h:680,
+                 from /home/guanqin/anaconda3/envs/py39/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/cstdlib:41,
+                 from /home/guanqin/anaconda3/envs/py39/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/stdlib.h:36,
+                 from /home/guanqin/anaconda3/envs/py39/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/mm_malloc.h:27,
+                 from /home/guanqin/anaconda3/envs/py39/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/xmmintrin.h:34,
+                 from /home/guanqin/anaconda3/envs/py39/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/emmintrin.h:31,
+                 from /home/guanqin/anaconda3/envs/py39/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/pmmintrin.h:31,
+                 from /home/guanqin/anaconda3/envs/py39/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/tmmintrin.h:31,
+                 from /home/guanqin/anaconda3/envs/py39/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/smmintrin.h:32,
+                 from libs/atomic/config/has_sse41.cpp:8:
+/home/guanqin/anaconda3/envs/py39/x86_64-conda-linux-gnu/sysroot/usr/include/gnu/stubs.h:7:11: fatal error: gnu/stubs-32.h: No such file or directory
+    7 | # include <gnu/stubs-32.h>
+      |           ^~~~~~~~~~~~~~~~
+compilation terminated.
+
+    "g++"   -fvisibility-inlines-hidden -m32 -pthread -O3 -finline-functions -Wno-inline -Wall -fvisibility=hidden -march=i686 -fPIC -msse -msse2 -msse3 -mssse3 -msse4.1 -std=c++11 -DBOOST_ALL_NO_LIB=1 -DBOOST_COBALT_USE_STD_PMR=1 -DNDEBUG   -I"."  -c -o "bin.v2/libs/atomic/config/gcc-14/release/address-model-32/link-static/threading-multi/visibility-hidden/has_sse41.o" "libs/atomic/config/has_sse41.cpp"
+
+...failed gcc.compile.c++ bin.v2/libs/atomic/config/gcc-14/release/address-model-32/link-static/threading-multi/visibility-hidden/has_sse41.o...
+...failed updating 1 target...
+...found 10 targets...
+...updating 7 targets...
+gcc.compile.c++ bin.v2/libs/config/checks/gcc-14/release/address-model-32/link-static/threading-multi/visibility-hidden/cxx11_static_assert.o
+In file included from /home/guanqin/anaconda3/envs/py39/x86_64-conda-linux-gnu/sysroot/usr/include/features.h:385,
+                 from /home/guanqin/anaconda3/envs/py39/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/x86_64-conda-linux-gnu/bits/os_defines.h:39,
+                 from /home/guanqin/anaconda3/envs/py39/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/x86_64-conda-linux-gnu/bits/c++config.h:680,
+                 from /home/guanqin/anaconda3/envs/py39/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/cstddef:49,
+                 from ./boost/config/compiler/gcc.hpp:165,
+                 from ./boost/config.hpp:39,
+                 from libs/config/checks/test_case.cpp:12:
+/home/guanqin/anaconda3/envs/py39/x86_64-conda-linux-gnu/sysroot/usr/include/gnu/stubs.h:7:11: fatal error: gnu/stubs-32.h: No such file or directory
+    7 | # include <gnu/stubs-32.h>
+      |           ^~~~~~~~~~~~~~~~
+compilation terminated.
+
+    "g++"   -fvisibility-inlines-hidden -m32 -pthread -O3 -finline-functions -Wno-inline -Wall -fvisibility=hidden -march=i686 -fPIC -std=c++11 -DBOOST_ALL_NO_LIB=1 -DBOOST_COBALT_USE_STD_PMR=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_STATIC_ASSERT   -I"."  -c -o "bin.v2/libs/config/checks/gcc-14/release/address-model-32/link-static/threading-multi/visibility-hidden/cxx11_static_assert.o" "libs/config/checks/test_case.cpp"
+
+...failed gcc.compile.c++ bin.v2/libs/config/checks/gcc-14/release/address-model-32/link-static/threading-multi/visibility-hidden/cxx11_static_assert.o...
+...failed updating 1 target...
+...updated 6 targets...
+...found 1 target...
+...updating 1 target...
+config-cache.write bin.v2/project-cache.jam
+...updated 1 target...
